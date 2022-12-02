@@ -1,0 +1,46 @@
+<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<div class="wj-modal feedback mfp-hide" id="feedback">
+	<form action="/ajax/handleTestError.json" data-ajax-form method="POST">
+		<h2 class="block-title"><span class="block-title__subtitle">Это что?</span> Это колбэк</h2>
+		<div class="form-result">
+		</div>
+		<div class="row">
+			<div class="form-fields">
+				<div class="form-fields__field col-12">
+					<div class="animated-input">
+						<label class="animated-input__label" for="feedback-name">Представьтесь</label>
+						<input class="feedback-input  animated-input__input" data-required id="feedback-name"
+							   type="text">
+					</div>
+				</div>
+				<div class="form-fields__field col-12">
+					<div class="animated-input">
+						<label class="animated-input__label" for="feedback-number">Ваш номер телефона</label>
+						<input class="feedback-input animated-input__input" data-required id="feedback-number"
+							   type="tel">
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="form-controls">
+			<div class="row">
+				<div class="col-12 ">
+					<button class="btn btn_in-form" type="submit">
+						<span>Перезвоните мне</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
