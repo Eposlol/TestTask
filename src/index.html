@@ -7,20 +7,20 @@
 		<div class="wrapper">
 			@@include('html/_header.htm',{})
 			<main class="page">
-					<div class="block-1 section" id="block_1" style="  background-image: url('@img/space_bg-resize.jpg');">
+					<section data-prlx-mouse-wrapper class="block__1 section" id="block__1" style="background-image: url('@img/space_bg-resize.jpg');">
 						<div class="section__row-content">
 							<div class="container">
 								<div class="row justify-content-center text-center">
-									<div class="col-12 col-sm-9 col-md-12 col-xl-9">
-										<div class="block-title block-title_light block-1__block-title ">
-											<div class="astronaut-title">Привет! Я твое</div>
+									<div class="col-12 col-sm-9 col-md-12 col-xl-10">
+										<div class="block__1-title title__light title__block ">
+											<div class="title__block-astronaut">Привет! Я твое</div>
 											<span
-												class="block-title__subtitle">тестовое задание</span>
-											<div class="block-1__astronaut"><img alt="" src="@img/space_astronaut.png"></div>
+												class="title__block-subtitle">тестовое задание</span>
+											<div data-prlx-mouse data-prlx-cy="25" data-prlx-cx="25" class="block__1-astronaut" id="astronaut"><img alt="" src="@img/space_astronaut.png"></div>
 										</div>
 									</div>
 									<div class="col-12">
-										<div class="block-1__description">Я состою из разнообразных блоков и элементов, которые круто
+										<div class="block__1-description">Я состою из разнообразных блоков и элементов, которые круто
 											смотрятся вместе, особенно если их дополнить простой анимацией. Например, в этом блоке,
 											космонавт должен парить при скролле при помощи параллакс-эффекта.
 										</div>
@@ -28,7 +28,7 @@
 								</div>
 							</div>
 						</div>
-						<a class="block-1__ready" data-scroll href="#block-2">
+						<a class="block__1-ready" data-scroll href="#block__2">
 							<span>Я готов!</span>
 							<svg class="bi bi-arrow-down" fill="currentColor" height="16" viewBox="0 0 16 16" width="16"
 								 xmlns="http://www.w3.org/2000/svg">
@@ -37,26 +37,26 @@
 									fill-rule="evenodd"/>
 							</svg>
 						</a>
-					</div>
-					<div class="block-2 section" id="block-2">
+					</section>
+					<section class="block__2 section" id="block__2">
 						<div class="section__row-content">
 							<div class="container">
 								<div class="row text-left">
 									<div class="col-12 col-lg-6 col-md-8 ">
 										<div class="block-2__left ">
-											<div class="block-title block-title_dark block-2__block-title"> Для начала: <span
-												class="block-title__subtitle">текстовый блок в 2 колонки</span>
+											<div class="block__title block__title-dark title__block-2"> Для начала: <span
+												class="block__title-subtitle">текстовый блок в 2 колонки</span>
 											</div>
 										</div>
 									</div>
 									<div class="col-12 col-lg-5 col-md-8 offset-lg-1">
-										<div class="small-text block-2__right block-2__small-text">
+										<div class="small-text block__2-right block-2__small-text">
 											<div class="text"> Для мелкого текста используется более удобочитаемый шрифт, ведь надо с
 												заботой относиться к пользователям сайта. По этой же причине высота строк в этом абзаце
 												немного увеличена, так как разреженный текст читать проще. Ну а чтобы тебе было интереснее,
 												создай кнопку, вызывающую форму :)
 											</div>
-											<a class="open_form popup" href="#feedback">
+											<a data-popup="#popup" class="open__form">
 												Открыть форму
 												<svg class="bi bi-arrow-right" fill="currentColor" height="16"
 													 viewBox="0 0 16 16" width="16"
@@ -71,22 +71,22 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="block-3 section" id="block-3">
+					</section>
+					<section class="block__3 section" id="block__3">
 						<div class="container">
 							<div class="row flex-column-reverse flex-lg-row  text-left">
-								<div class="block-3__aside col-12 col-lg-6 p-0">
-									<div class="block-3__left block-3__banner">
+								<div class="block__3-aside col-12 col-lg-6 p-0">
+									<div class="block__3-left block__3-banner">
 										<div class="row">
 										</div>
 									</div>
 								</div>
 								<div class="col-12 col-lg-5 offset-lg-1 p-0">
 									<div class="section__col-content">
-										<div class="text block-3__text">
-											<div class="block-title  block-title_light">
+										<div class="text block__3-text">
+											<div class="block__title  block__title-light">
 												<div>Добавим красок:</div>
-												<span class="block-title__subtitle">изображение</span>
+												<span class="block__title-subtitle">изображение</span>
 											</div>
 											<div class="small-text">По структуре этот блок очень похож на
 												предыдущий, но две колонки в данном случае содержат разный контент: текст и
@@ -97,40 +97,40 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="block_4 section" id="block_4">
+					</section>
+					<section class="block__4 section" id="block__4">
 						<div class="container">
 							<div class="section__row-content">
-								<div class="cards">
+								<div class="block__4-items">
 									<div class="row">
 										<div class="col-12 col-lg-4">
-											<div class="card"
+											<div class="block__4-item"
 												 style="background-image: url('@img/alexander-andrews-fsH1KjbdjE8-unsplash-resize.jpg')">
-												<div class="card__text text-left">
-													<div class="card__title title"> Блок с плитками и краткими текстам на них</div>
-													<div class="card__small-text small-text"> Не забудь про эффект наведения,чтобы добавить
+												<div class="item__text text-left">
+													<div class="item__title title"> Блок с плитками и краткими текстам на них</div>
+													<div class="item__small-text small-text"> Не забудь про эффект наведения,чтобы добавить
 														интерактивности
 													</div>
 												</div>
 											</div>
 										</div>
 										<div class="col-12 col-lg-4">
-											<div class="card"
+											<div class="block__4-item"
 												 style="background-image: url('@img/johny-goerend-Oz2ZQ2j8We8-unsplash-resize.jpg')">
-												<div class="card__text text-left">
-													<div class="card__title title"> Так выглядит карточка, если на нее навести курсор</div>
-													<div class="card__small-text small-text"> Она приподнимается, появляется тень в тон
+												<div class="item__text text-left">
+													<div class="item__title title"> Так выглядит карточка, если на нее навести курсор</div>
+													<div class="item__small-text small-text"> Она приподнимается, появляется тень в тон
 														фотографии, текст непрозрачный
 													</div>
 												</div>
 											</div>
 										</div>
 										<div class="col-12 col-lg-4">
-											<div class="card"
+											<div class="block__4-item"
 												 style="background-image: url('@img/nate-rayfield-_WR6tUIAJe8-unsplash-resize.jpg')">
-												<div class="card__text text-left">
-													<div class="card__title title"> Фотография на фоне карточки не должна мешать</div>
-													<div class="card__small-text small-text"> Текст здесь на первом месте</div>
+												<div class="item__text text-left">
+													<div class="item__title title"> Фотография на фоне карточки не должна мешать</div>
+													<div class="item__small-text small-text"> Текст здесь на первом месте</div>
 												</div>
 											</div>
 										</div>
@@ -138,26 +138,25 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="block-5 section" id="block-5">
+					</section>
+					<section class="block__5 section" id="block__5">
 						<div class="section__row-content">
 							<div class="container text-center">
-								<div class="bg-paralax">
-									<div class="bg-paralax-inner">
+								<div class="block__5-paralax">
+									<div class="block__5-paralaxinner">
 										<img alt="" src="@img/johny-goerend-Oz2ZQ2j8We8-unsplash.jpg"/>
-										<div class="text">12DSFODF{KF3</div>
 									</div>
 								</div>
 								<div class="row justify-content-center">
 									<div class="col-9 col-md-10">
-										<div class="block-title block-title_light block-5__block-title"> Добавим динамики: элементы
+										<div class="block__title block__title-light block__5-title"> Добавим динамики: элементы
 											реагируют <span class="block-title__subtitle">на скролл</span>
 										</div>
 									</div>
 								</div>
-								<div class="row ">
+								<div class="row">
 									<div class="col-12 col-sm-10 col-lg-8 col-xl-6 m-auto">
-										<div class="monitor-text monitor-text_top small-text text-center"> Блок простой по составу, но
+										<div class="monitor__text monitor__text-top small-text text-center"> Блок простой по составу, но
 											каждый его элемент должен приходить в движение при скролле страницы.
 										</div>
 									</div>
@@ -165,25 +164,28 @@
 										<div class="monitor m-auto">
 											<img class="monitor__decor" alt="" height="1268" src="@img/iMac_flat.png" width="1722">
 											<div class="monitor__inner" style="background-image: url('@img/johny-goerend-Oz2ZQ2j8We8-unsplash-resize-2.jpg');">
-												<div class="monitor__layer" >
-												</div>
 											</div>
 										</div>
 									</div>
 									<div class="col-12 col-sm-10 col-lg-8 col-xl-6 m-auto">
-										<!--или указать сразу класс элемента?-->
-										<div class="monitor-text_bottom small-text"> Строки текста, расположенные ниже, при скролле должны
+										<div class="monitor__text-bottom small-text"> Строки текста, расположенные ниже, при скролле должны
 											сами по себе двигаться, как бесконечные бегущие строки.
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="ticker-container">
-								<div class="tickers__ticker ticker-left" data-direction="left"> Эта строка должна двигаться
-									<span>влево</span> / Эта строка должна двигаться <span>влево</span> /
+							<div class="ticker__container">
+								<div  class="tickers__ticker ticker-left" >
+								<p>Эта строка должна двигаться
+									<span>влево</span> / Эта строка должна двигаться <span>влево</span> /</p>
+									<p>Эта строка должна двигаться
+										<span>влево</span> / Эта строка должна двигаться <span>влево</span> /</p>
 								</div>
-								<div class="tickers__ticker ticker-right" data-direction="right"> А эта строка должна двигаться
-									<span>вправо</span> / А эта строка должна двигаться <span>вправо</span> /
+								<div class="tickers__ticker ticker-right" >
+								<p>	А эта строка должна двигаться
+									<span>вправо</span> / А эта строка должна двигаться <span>вправо</span> /</p>
+									<p>	А эта строка должна двигаться
+										<span>вправо</span> / А эта строка должна двигаться <span>вправо</span> /</p>
 								</div>
 							</div>
 							<div class="container">
@@ -202,7 +204,6 @@
 												<div class="icon__description small-text">Иконки с описанием расположены в 3 колонки и
 													появляются при скролле по очереди
 												</div>
-					
 											</div>
 										</div>
 										<div class="col-12 col-sm-8 col-md-5 col-lg-4 m-auto">
@@ -218,7 +219,6 @@
 												<div class="icon__description small-text">Появление иконок происходит через плавную смену
 													прозрачности и небольшой подъем
 												</div>
-					
 											</div>
 										</div>
 										<div class="col-12 col-sm-8 col-md-5 col-lg-4 m-auto">
@@ -234,132 +234,93 @@
 												<div class="icon__description small-text">Также все иконки должны реагировать на наведение
 													курсора, по примеру этой иконки.
 												</div>
-					
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					
-					
-					</div>
-					<div class="block-6 section" id="block-6">
+					</section>
+					<section class="block__6 section" id="block__6">
 						<div class="section__row-content">
 							<div class="container">
 								<div class="row flex-column">
 									<div class="col-12 col-md-10 col-lg-7">
-										<div class="block-title block-title_dark">И снова текст:<span class="block-title__subtitle">несколько
-					абзацев
-					в слайдере</span>
+										<div class="block__title block__title-dark">И снова текст:<span class="block__title-subtitle">несколько
+												абзацев
+												в слайдере</span>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="container-left-alignment">
-								<div class="wj-slider-container owl-carousel">
-									<div class="wj-slide">
-										<div class="wj-slide__img">
+							<div class="container-left-alignment wejet__slider swiper">
+								<div class="wejet__wrapper swiper-wrapper">
+									<div class="wejet__slide swiper-slide">
+										<div class="slide__img">
 											<img alt="" src="@img/Icon_metro-quote.png">
 										</div>
-										<div class="wj-slide__text">
+										<div class="slide__text">
 											Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
 											invidunt
 											ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
 											duo
 											dolores.
 										</div>
-										<div class="wj-slide__subtitle">
+										<div class="slide__subtitle">
 											Lorem ipsum dolor sit amet.
 										</div>
-					
 									</div>
-									<div class="wj-slide">
-										<div class="wj-slide__img">
+									<div class="wejet__slide swiper-slide">
+										<div class="slide__img">
 											<img alt="" src="@img/Icon_metro-quote.png">
 										</div>
-										<div class="wj-slide__text">
+										<div class="slide__text">
 											Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
 											invidunt
 											ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
 											duo
 											dolores.
 										</div>
-										<div class="wj-slide__subtitle">
+										<div class="slide__subtitle">
 											Lorem ipsum dolor sit amet.
 										</div>
-					
 									</div>
-									<div class="wj-slide">
-										<div class="wj-slide__img">
+									<div class="wejet__slide swiper-slide">
+										<div class="slide__img">
 											<img alt="" src="@img/Icon_metro-quote.png">
 										</div>
-										<div class="wj-slide__text">
+										<div class="slide__text">
 											Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
 											invidunt
 											ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
 											duo
 											dolores.
 										</div>
-										<div class="wj-slide__subtitle">
+										<div class="slide__subtitle">
 											Lorem ipsum dolor sit amet.
 										</div>
-					
-									</div>
-									<div class="wj-slide">
-										<div class="wj-slide__img">
-											<img alt="" src="@img/Icon_metro-quote.png">
-										</div>
-										<div class="wj-slide__text">
-											Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-											invidunt
-											ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-											duo
-											dolores.
-										</div>
-										<div class="wj-slide__subtitle">
-											Lorem ipsum dolor sit amet.
-										</div>
-					
-									</div>
-									<div class="wj-slide">
-										<div class="wj-slide__img">
-											<img alt="" src="@img/Icon_metro-quote.png">
-										</div>
-										<div class="wj-slide__text">
-											Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-											invidunt
-											ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-											duo
-											dolores.
-										</div>
-										<div class="wj-slide__subtitle">
-											Lorem ipsum dolor sit amet.
-										</div>
-					
 									</div>
 								</div>
 							</div>
-					
 						</div>
-					</div>
-					<div class="block-7 section" id="block-7">
+					</section>
+					<section class="block__7 section" id="block__7">
 						<div class="section__row-content">
 							<div class="container">
 								<div class="row flex-column">
 									<div class="col-12 col-sm-8 col-md-10">
-										<div class="block-title block-title_light"> Заверши страницу <span class="block-title__subtitle">баннером с кнопкой</span>
+										<div class="block__title block__title-light"> Заверши страницу <span class="block__title-subtitle">баннером с кнопкой</span>
 										</div>
 									</div>
 									<div class="col-12 col-sm-8 col-md-6">
-										<a class="btn btn_default popup" href="#feedback">
+										<a data-popup="#popup" class="btn btn__default" href="#feedback">
 											<span>Открыть форму!</span>
 										</a>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</section>
 			</main>
 			@@include('html/_footer.htm',{})
 		</div>

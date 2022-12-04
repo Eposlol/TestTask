@@ -71,6 +71,7 @@
 	"dependencies": {
 		"bootstrap": "^5.2.3",
 		"del": "^6.1.1",
-		"simplebar": "latest"
+		"simplebar": "latest",
+		"ticker-js": "^1.0.3"
 	}
 }
